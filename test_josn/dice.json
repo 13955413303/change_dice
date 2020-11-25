@@ -1,0 +1,97 @@
+{
+	"system": {
+		"authority": "https://stg-api.leyanbot.com/dice/v1",
+		"flashcard": "https://stg-api.leyanbot.com/flashcard/v1",
+		"notification": "https://pigeon.leyantech.com",
+		"pigeon": "https://pigeon.leyantech.com/v1",
+		"cnc": "https://api.leyanbot.com/cnc/v1/dice",
+		"tracker": "https://apiproxy.leyanbot.com/fred",
+		"serviceMode": "https://apiproxy.leyanbot.com/v1/client_info",
+		"inspector": "https://apiproxy.leyanbot.com/inspector/v1",
+		"wingman": "http://stg-pip-boy.infra.leyantech.com",
+		"accountProxy": "https://accountproxy.leyanbot.com/api",
+		"profile": "profile0",
+		"profileUpdatedAt": 1606274855998,
+		"highlightDelay": 3000,
+		"quickStart": false,
+		"assistantBlockTime": 300000,
+		"sync": true,
+		"syncIntervalMs": 180000,
+		"timeOffset": 0,
+		"agent": {
+ 		"endpoint": "wss://agent.stg.lain.leyanbot.com/ws",
+			"app": "app",
+			"dnsAppID": "106191"
+		},
+		"flag": {
+			"endpont": "https://nta-api.leyanbot.com/flags/v1",
+			"release": {
+				"url": "https://dist.leyantech.com/dice-release/",
+				"name": "dice-updater",
+				"key": "ky113egbnvqsfoz79"
+			},
+			"profile": {
+				"name": "profile",
+				"key": "k5g691oeasmcz3epv"
+			},
+			"qn": {
+				"name": "QN-updater",
+				"key": "k421qajwerfbaj6p4"
+			}
+		},
+		"ipc": {
+			"tagId": "ly-qn-ipc",
+			"distUrl": "https://dist.leyantech.com/static/qn-ipc.v6.js",
+			"nativeUrl": "https://dist.leyantech.com/native",
+			"nativePort": 9996
+		},
+		"login": {
+			"platform": "neuron",
+			"qr": {
+				"appid": "wx731a5a664672b899",
+				"redirect": "https://api.leyanbot.com/dice/v1/wechat"
+			},
+			"pin": {
+				"endpoint": "https://stg-api.leyanbot.com/dice/v1"
+			}
+		},
+		"bipolar": {
+			"endpoint": "https://staging-taobao-bipolar-prokaryote.ftest.leyantech.com/",
+			"strategy": "",
+			"appid": "3000000002138901"
+		},
+		"aliWorkbench": {
+			"dataConfig": "C:\\Users\\Public\\Documents\\AliWorkbench\\DataConfig.ini",
+			"imageDomin": "https://appres.wiflill.com/publictmp/"
+		}
+	},
+	"version": "2020.11.03",
+	"assistants": {
+		"default": {
+			"delay": 3000,
+			"suggest": true,
+			"serviceMode": "normal"
+		}
+	},
+	"updater": {
+		"QN": {
+			"attachFiles": [],
+			"enable": true,
+			"ignores": [
+				"7.26.03N/aliupdate.dll"
+			],
+			"launchArgs": [
+				"/run:desktop"
+			],
+			"releaseDate": "2020-10-24 21:34:00",
+			"sha512": "5O/MuSD49dWt8xKQZSQqlsmmXKIzkYPMgLHKMqs4QsmmoB48q4M93NJbPqqkJCrWDNKrkCOXi0rT0wO1qpCfBA==",
+			"urls": [
+				"https://static.alimama.com/wangwang/wwupdate/new/7.26.03N/7.26.03N/0_package.7z",
+				"https://dist.leyantech.com/qn-installer/7.26.03N/0_package.7z"
+			],
+			"version": "7.26.03"
+		},
+		"enable": true,
+		"intervalMS": 600000
+	}
+}
