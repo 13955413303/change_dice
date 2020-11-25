@@ -1,5 +1,6 @@
 #!/c/Users/leyan/AppData/Local/Programs/Python/Python38/python
 # **********************************************
+# pip install pyinstaller
 # pyinstaller -F -w 你的文件名.py
 # v 3.0
 #
