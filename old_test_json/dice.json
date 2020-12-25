@@ -1,0 +1,90 @@
+{
+	"system": {
+ 		"agent": "wss://agentproxy.leyanbot.com/ws",
+		"authority": "https://api.leyanbot.com/dice/v1",
+		"flashcard": "https://api.leyanbot.com/flashcard/v1",
+		"notification": "https://pigeon.leyantech.com",
+		"pigeon": "https://pigeon.leyantech.com/v1",
+		"cnc": "https://api.leyanbot.com/cnc/v1/dice",
+		"tracker": "https://apiproxy.leyanbot.com/fred",
+		"flag": "https://nta-api.leyanbot.com/flags/v1",
+		"serviceMode": "https://apiproxy.leyanbot.com/v1/client_info",
+		"inspector": "https://apiproxy.leyanbot.com/inspector/v1",
+		"wingman": "https://wingman.leyantech.com",
+		"accountProxy": "https://accountproxy.leyanbot.com/api",
+		"profile": "profile0",
+		"profileUpdatedAt": 1608880879401,
+		"highlightDelay": 3000,
+		"assistantBlockTime": 300000,
+		"sync": true,
+		"quickStart": false,
+		"syncIntervalMs": 180000,
+		"login": {
+			"qr": {
+				"appid": "wx731a5a664672b899",
+				"redirect": "https://api.leyanbot.com/dice/v1/wechat"
+			},
+			"pin": {
+				"endpoint": "https://api.leyanbot.com/dice/v1"
+			}
+		},
+		"bipolar": {
+			"endpoint": "https://bipolar-prokaryote.leyantech.com/",
+			"jumpList": [
+				"159383362"
+			],
+			"app": "",
+			"startegy": "",
+			"appid": "3000000002138901"
+		},
+		"timeOffset": 0,
+		"aliWorkbench": {
+			"dataConfig": "C:\\Users\\Public\\Documents\\AliWorkbench\\DataConfig.ini",
+			"imageDomin": "https://appres.wiflill.com/publictmp/"
+		}
+	},
+	"version": "2020.09.07",
+	"assistants": {
+		"default": {
+			"delay": 3000,
+			"suggest": true,
+			"serviceMode": "normal"
+		},
+		"leyantech:赵杨": {
+			"serviceMode": "disabled",
+			"delay": 250,
+			"suggest": false
+		},
+		"赵杨321": {
+			"delay": 3000,
+			"suggest": true,
+			"serviceMode": "normal"
+		},
+		"赵杨321:zy": {
+			"delay": 3000,
+			"suggest": true,
+			"serviceMode": "transfer"
+		}
+	},
+	"updater": {
+		"QN": {
+			"attachFiles": [],
+			"enable": true,
+			"ignores": [
+				"7.26.03N/aliupdate.dll"
+			],
+			"launchArgs": [
+				"/run:desktop"
+			],
+			"releaseDate": "2020-10-24 21:34:00",
+			"sha512": "5O/MuSD49dWt8xKQZSQqlsmmXKIzkYPMgLHKMqs4QsmmoB48q4M93NJbPqqkJCrWDNKrkCOXi0rT0wO1qpCfBA==",
+			"urls": [
+				"https://static.alimama.com/wangwang/wwupdate/new/7.26.03N/7.26.03N/0_package.7z",
+				"https://dist.leyantech.com/qn-installer/7.26.03N/0_package.7z"
+			],
+			"version": "7.26.03"
+		},
+		"enable": true,
+		"intervalMS": 600000
+	}
+}
